@@ -24,7 +24,7 @@
   "entryFulfillment": {
     "messages": [ {
       "text": {
-        "text": [ "Sei entrato nella PrenotzioneEffettuataPage,  $session.params, $session.params.cartype $sessionInfo.parameters  $session.params.auto" ]
+        "text": [ "Sei entrato nella PrenotzioneEffettuataPage,  $session.params, $session.params.cartype - auto -$session.parameters.auto" ]
       },
       "languageCode": "it"
     } ],
@@ -43,8 +43,6 @@
         },
         "languageCode": "it"
       } ],
-      "webhook": "replitwebhook",
-      "tag": "trtrtr",
       "nextActionOverride": {
       
       }
@@ -60,8 +58,6 @@
         },
         "languageCode": "it"
       } ],
-      "webhook": "replitwebhook",
-      "tag": "trtrtr",
       "nextActionOverride": {
       
       }
@@ -71,8 +67,6 @@
   }, {
     "condition": "$session.params.parameters.auto = 1 OR $session.params.auto = 1 OR $sessionInfo.parameters.auto = 1 OR $page.params.auto = 1 OR $sessionInfo.auto = 1",
     "triggerFulfillment": {
-      "webhook": "replitwebhook",
-      "tag": "trtrtr",
       "nextActionOverride": {
       
       }

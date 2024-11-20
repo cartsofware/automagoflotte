@@ -7,27 +7,19 @@
       "entityType": "@sys.any",
       "fillBehavior": {
         "initialPromptFulfillment": {
-        
+          "nextActionOverride": {
+          
+          }
         }
       }
     } ]
   },
   "entryFulfillment": {
     "messages": [ {
-      "languageCode": "it",
-      "knowledgeInfoCard": {
-        "maximumSnippets": 2
-      }
-    }, {
       "text": {
-        "text": [ "Sei entrato nella confirmation page è $request $Webhookrequest $Webhookresponse1234 $session.request $auto $sessionInfo.parameters  $session.params.auto" ]
+        "text": [ "- auto - $session.parameters -$session.param -" ]
       },
       "languageCode": "it"
-    }, {
-      "languageCode": "it",
-      "knowledgeInfoCard": {
-        "maximumSnippets": 4
-      }
     } ],
     "nextActionOverride": {
     
