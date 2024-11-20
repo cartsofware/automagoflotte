@@ -1,0 +1,36 @@
+{
+  "name": "4307f7df-5ee8-4153-8dfe-31e8c64e1301",
+  "displayName": "ConfirmationPage",
+  "form": {
+    "parameters": [ {
+      "displayName": "disponibilitaAuto",
+      "entityType": "@sys.any",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+        
+        }
+      }
+    } ]
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "languageCode": "it",
+      "knowledgeInfoCard": {
+        "maximumSnippets": 2
+      }
+    }, {
+      "text": {
+        "text": [ "Sei entrato nella confirmation page è $request $Webhookrequest $Webhookresponse1234 $session.request $auto $sessionInfo.parameters  $session.params.auto" ]
+      },
+      "languageCode": "it"
+    }, {
+      "languageCode": "it",
+      "knowledgeInfoCard": {
+        "maximumSnippets": 4
+      }
+    } ],
+    "nextActionOverride": {
+    
+    }
+  }
+}

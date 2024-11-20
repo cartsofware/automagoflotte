@@ -1,0 +1,40 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "Server",
+      "parameterId": "autodisponibileentity",
+      "auto": true
+    }, {
+      "text": ": ",
+      "auto": true
+    }, {
+      "text": "Auto",
+      "parameterId": "cartype",
+      "auto": true
+    }, {
+      "text": " non ",
+      "auto": true
+    }, {
+      "text": "disponibile",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "it"
+  }, {
+    "parts": [ {
+      "text": "Auto",
+      "parameterId": "cartype",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "non",
+      "parameterId": "date-time",
+      "auto": true
+    }, {
+      "text": " disponibile"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "it"
+  } ]
+}

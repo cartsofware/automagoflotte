@@ -1,0 +1,12 @@
+{
+  "name": "0f9ee4bd-ae10-419a-9f1f-32c74649b66a",
+  "displayName": "PrenotaAutoWebhook",
+  "genericWebService": {
+    "uri": "https://test.cartsoftware.cloud:13189",
+    "webhookType": "STANDARD",
+    "serviceAgentAuth": "NONE"
+  },
+  "timeout": {
+    "seconds": 5
+  }
+}

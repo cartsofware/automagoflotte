@@ -1,0 +1,60 @@
+{
+  "name": "00000000-0000-0000-0000-000000000000",
+  "displayName": "Default Start Flow",
+  "description": "A start flow created along with the agent",
+  "transitionRoutes": [ {
+    "intent": "Default Welcome Intent",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Ciao! Cosa ti serve? (start page/Default Intent)", "Buongiorno! Cosa ti serve? (start page/Default Intent)" ]
+        },
+        "languageCode": "it"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "name": "c7f885c7-b94e-43c0-a173-53d992e8afe9"
+  }, {
+    "intent": "PrenotaNoleggiaAuto Intent",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Prenotaizone effettuata Page",
+    "name": "4c7f6b12-e45a-4222-a3a2-66ddb159ff77"
+  } ],
+  "eventHandlers": [ {
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Non penso di seguirti. Potresti ripetere?", "Potresti dirlo ancora una volta?", "Potresti essere più specifico?", "Non ho capito bene. Potresti ripetere?", "Non ti ho sentito bene. Puoi ripetere?" ]
+        },
+        "languageCode": "it"
+      } ]
+    },
+    "name": "229c2619-7370-4acd-81af-31e3b44773b4"
+  }, {
+    "event": "sys.no-input-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Non penso di seguirti. Potresti ripetere?", "Potresti dirlo ancora una volta?", "Potresti essere più specifico?", "Non ho capito bene. Potresti ripetere?", "Non ti ho sentito bene. Puoi ripetere?" ]
+        },
+        "languageCode": "it"
+      } ]
+    },
+    "name": "825b09a0-d910-448b-8fd2-16a8ea5177b4"
+  } ],
+  "nluSettings": {
+    "modelType": "MODEL_TYPE_ADVANCED",
+    "classificationThreshold": 0.30000001
+  },
+  "nluSettingsList": [ {
+    "modelType": "MODEL_TYPE_ADVANCED",
+    "classificationThreshold": 0.30000001,
+    "customConfigKey": "8b3b2b06-9953-41ee-9b31-9e01826a97e9",
+    "languageCode": "it"
+  } ]
+}

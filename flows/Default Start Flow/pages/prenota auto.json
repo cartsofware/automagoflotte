@@ -1,0 +1,67 @@
+{
+  "name": "a624a1e3-f636-443a-b56b-367e2ea4bc1d",
+  "displayName": "prenota auto",
+  "form": {
+    "parameters": [ {
+      "displayName": "auto",
+      "required": true,
+      "entityType": "@CarType",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "ti prego di indicare un tipo di auto" ]
+            },
+            "languageCode": "it"
+          } ],
+          "nextActionOverride": {
+          
+          }
+        }
+      }
+    }, {
+      "displayName": "date_and_time",
+      "required": true,
+      "entityType": "@sys.date-time",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Ti prego di indicare un orario e una data" ]
+            },
+            "languageCode": "it"
+          } ],
+          "nextActionOverride": {
+          
+          }
+        }
+      }
+    } ]
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Complimenti hai prenotato un auto (fulfill prenotaauto page)" ]
+      },
+      "languageCode": "it"
+    } ],
+    "nextActionOverride": {
+    
+    }
+  },
+  "transitionRoutes": [ {
+    "condition": "$page.params.status = \"FINAL\"",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Abbiamo raccolto tutte le informazioni utili" ]
+        },
+        "languageCode": "it"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "name": "41b5011f-9fb3-47e7-90ad-3ebab8fab5e5"
+  } ]
+}

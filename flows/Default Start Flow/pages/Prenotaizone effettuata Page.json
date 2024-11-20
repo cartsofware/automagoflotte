@@ -1,0 +1,92 @@
+{
+  "name": "f5072e6f-eb1b-47e7-9e93-c5f9c7b84438",
+  "displayName": "Prenotaizone effettuata Page",
+  "form": {
+    "parameters": [ {
+      "displayName": "DisponibilitaAutoParam",
+      "entityType": "@sys.any",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "setParameterActions": [ {
+            "parameter": "responseMessage",
+            "value": "responseMessage"
+          }, {
+            "parameter": "parameters",
+            "value": "Server: Prenotazione effettuata con successo."
+          } ],
+          "nextActionOverride": {
+          
+          }
+        }
+      }
+    } ]
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Sei entrato nella PrenotzioneEffettuataPage,  $session.params, $session.params.cartype $sessionInfo.parameters  $session.params.auto" ]
+      },
+      "languageCode": "it"
+    } ],
+    "webhook": "replitwebhook",
+    "tag": "gchgfhgf",
+    "nextActionOverride": {
+    
+    }
+  },
+  "transitionRoutes": [ {
+    "intent": "DisponibilitàAutoIntent",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Fulfillment: complimenti hai prenotato l'auto" ]
+        },
+        "languageCode": "it"
+      } ],
+      "webhook": "replitwebhook",
+      "tag": "trtrtr",
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetPage": "Ultimissima pagina",
+    "name": "fb2ac39b-0e77-42b5-8d18-763cc39c0308"
+  }, {
+    "intent": "AutoNonDisponibileIntent",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "flfiullment: non sei riuscito a prenotare l'auto" ]
+        },
+        "languageCode": "it"
+      } ],
+      "webhook": "replitwebhook",
+      "tag": "trtrtr",
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetPage": "Ultimissima pagina",
+    "name": "36b68f5e-f6a9-4416-9665-d4c1df8638ae"
+  }, {
+    "condition": "$session.params.parameters.auto = 1 OR $session.params.auto = 1 OR $sessionInfo.parameters.auto = 1 OR $page.params.auto = 1 OR $sessionInfo.auto = 1",
+    "triggerFulfillment": {
+      "webhook": "replitwebhook",
+      "tag": "trtrtr",
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetPage": "Ultimissima pagina",
+    "name": "53733467-23d5-42d8-af60-94ef5ba3c6f8"
+  }, {
+    "condition": "true",
+    "triggerFulfillment": {
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetPage": "ConfirmationPage",
+    "name": "d9cfcbca-895c-40be-9e76-3903948e34ae"
+  } ]
+}

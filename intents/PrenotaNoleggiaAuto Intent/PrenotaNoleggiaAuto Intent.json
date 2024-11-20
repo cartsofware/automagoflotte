@@ -1,0 +1,15 @@
+{
+  "name": "694e126c-1531-47d3-8da3-cc4d13576afd",
+  "displayName": "PrenotaNoleggiaAuto Intent",
+  "parameters": [ {
+    "id": "date-time",
+    "entityType": "@sys.date-time",
+    "isList": true
+  }, {
+    "id": "CarType",
+    "entityType": "@CarType",
+    "isList": true
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 5
+}

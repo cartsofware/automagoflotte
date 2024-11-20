@@ -1,0 +1,31 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "Server",
+      "parameterId": "autodisponibileentity",
+      "auto": true
+    }, {
+      "text": ": Prenotazione effettuata con ",
+      "auto": true
+    }, {
+      "text": "successo",
+      "auto": true
+    }, {
+      "text": ".",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "it"
+  }, {
+    "parts": [ {
+      "text": "Auto",
+      "parameterId": "cartype",
+      "auto": true
+    }, {
+      "text": " disponibile",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "it"
+  } ]
+}

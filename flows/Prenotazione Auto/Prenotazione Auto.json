@@ -1,0 +1,53 @@
+{
+  "name": "b896d4ae-83ff-4b46-8310-3ddeea79199e",
+  "displayName": "Prenotazione Auto",
+  "transitionRoutes": [ {
+    "intent": "Welcome goFlotte Intent",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Auto prenotata" ]
+        },
+        "languageCode": "it"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetPage": "PrenotazionePage",
+    "name": "8bd432f8-547a-437c-add7-21a3d9b76838"
+  } ],
+  "eventHandlers": [ {
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Non penso di seguirti. Potresti ripetere?", "Potresti dirlo ancora una volta?", "Potresti essere più specifico?", "Non ho capito bene. Potresti ripetere?", "Non ti ho sentito bene. Puoi ripetere?" ]
+        },
+        "languageCode": "it"
+      } ]
+    },
+    "name": "17354887-36e1-4bbe-a8c7-db6c6e470f5a"
+  }, {
+    "event": "sys.no-input-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Non penso di seguirti. Potresti ripetere?", "Potresti dirlo ancora una volta?", "Potresti essere più specifico?", "Non ho capito bene. Potresti ripetere?", "Non ti ho sentito bene. Puoi ripetere?" ]
+        },
+        "languageCode": "it"
+      } ]
+    },
+    "name": "5fc7cd9f-33cc-4a83-b769-b02ba3dc9716"
+  } ],
+  "nluSettings": {
+    "modelType": "MODEL_TYPE_ADVANCED",
+    "classificationThreshold": 0.30000001
+  },
+  "nluSettingsList": [ {
+    "modelType": "MODEL_TYPE_ADVANCED",
+    "classificationThreshold": 0.30000001,
+    "customConfigKey": "648da15c-7078-449b-95a6-fa5ba69df716",
+    "languageCode": "it"
+  } ]
+}

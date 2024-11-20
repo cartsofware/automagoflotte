@@ -1,0 +1,82 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "Server",
+      "auto": true
+    }, {
+      "text": ": Prenotazione effettuata con successo."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "it"
+  }, {
+    "parts": [ {
+      "text": "noleggia "
+    }, {
+      "text": "una",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "opel corsa",
+      "parameterId": "CarType"
+    }, {
+      "text": " "
+    }, {
+      "text": "oggi alle 07.30",
+      "parameterId": "date-time",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "it"
+  }, {
+    "parts": [ {
+      "text": "prenotami "
+    }, {
+      "text": "una",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "fiat panda",
+      "parameterId": "CarType"
+    }, {
+      "text": " "
+    }, {
+      "text": "dopodomani alle 23.30",
+      "parameterId": "date-time",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "it"
+  }, {
+    "parts": [ {
+      "text": "prenota  "
+    }, {
+      "text": "un auto",
+      "parameterId": "CarType"
+    }, {
+      "text": " per "
+    }, {
+      "text": "domani alle 12.15",
+      "parameterId": "date-time"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "it"
+  }, {
+    "parts": [ {
+      "text": "vorrei noleggiare una "
+    }, {
+      "text": "berlina",
+      "parameterId": "CarType"
+    }, {
+      "text": " il "
+    }, {
+      "text": "15 ottobre alle 21.30",
+      "parameterId": "date-time"
+    }, {
+      "text": "   "
+    } ],
+    "repeatCount": 1,
+    "languageCode": "it"
+  } ]
+}

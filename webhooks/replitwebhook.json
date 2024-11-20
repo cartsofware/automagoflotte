@@ -1,0 +1,12 @@
+{
+  "name": "45b21c64-33e8-4610-beae-dd281ecb9d1b",
+  "displayName": "replitwebhook",
+  "genericWebService": {
+    "uri": "https://f99ea8ea-5dc0-4cc1-be26-64c3beedd2cf-00-2i800jft6c1cw.riker.replit.dev/callback",
+    "webhookType": "STANDARD",
+    "serviceAgentAuth": "NONE"
+  },
+  "timeout": {
+    "seconds": 5
+  }
+}

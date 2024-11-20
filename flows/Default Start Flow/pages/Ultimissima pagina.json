@@ -1,0 +1,18 @@
+{
+  "name": "56f6f6b9-ceee-4b7f-930b-36fcc8789570",
+  "displayName": "Ultimissima pagina",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "NOOOOOO auto non disponibile!!!!!!!!!!!!!" ]
+      },
+      "languageCode": "it"
+    } ],
+    "nextActionOverride": {
+    
+    }
+  }
+}

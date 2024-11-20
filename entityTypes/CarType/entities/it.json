@@ -1,0 +1,19 @@
+{
+  "entities": [ {
+    "value": "fiat panda",
+    "synonyms": [ "fiat, panda, cinquecento, utilitaria" ],
+    "languageCode": "it"
+  }, {
+    "value": "opel corsa",
+    "synonyms": [ "opel, corsa, astra, utilitaria" ],
+    "languageCode": "it"
+  }, {
+    "value": "station wagon",
+    "synonyms": [ "station wagon" ],
+    "languageCode": "it"
+  }, {
+    "value": "SUV",
+    "synonyms": [ "SUV" ],
+    "languageCode": "it"
+  } ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "c037383e-6ed3-4e60-ad34-e5e44b98e5a9",
+  "displayName": "Webhook temp",
+  "genericWebService": {
+    "uri": "https://webhook.site/e4bc658f-cd53-4014-b6a6-07b0b1af5ec2",
+    "webhookType": "STANDARD",
+    "serviceAgentAuth": "NONE"
+  },
+  "timeout": {
+    "seconds": 5
+  }
+}

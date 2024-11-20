@@ -1,0 +1,12 @@
+{
+  "name": "2b908579-6add-4f98-8f0c-b4795525d749",
+  "displayName": "WebhookCloudCart",
+  "genericWebService": {
+    "uri": "https://test.cartsoftware.cloud/goflotte",
+    "webhookType": "STANDARD",
+    "serviceAgentAuth": "NONE"
+  },
+  "timeout": {
+    "seconds": 5
+  }
+}

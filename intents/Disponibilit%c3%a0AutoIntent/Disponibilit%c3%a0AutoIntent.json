@@ -1,0 +1,13 @@
+{
+  "name": "24279d0a-6ded-40bd-bbed-5f64a93bea18",
+  "displayName": "DisponibilitàAutoIntent",
+  "parameters": [ {
+    "id": "cartype",
+    "entityType": "@CarType"
+  }, {
+    "id": "autodisponibileentity",
+    "entityType": "@AutoDisponibileEntity"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 2
+}

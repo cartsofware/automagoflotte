@@ -1,0 +1,16 @@
+{
+  "name": "e31b8b8d-ef04-44f5-9afa-0676dba0bf92",
+  "displayName": "AutoNonDisponibileIntent",
+  "parameters": [ {
+    "id": "cartype",
+    "entityType": "@CarType"
+  }, {
+    "id": "date-time",
+    "entityType": "@sys.date-time"
+  }, {
+    "id": "autodisponibileentity",
+    "entityType": "@AutoDisponibileEntity"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 2
+}
