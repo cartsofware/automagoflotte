@@ -7,6 +7,6 @@
     "serviceAgentAuth": "NONE"
   },
   "timeout": {
-    "seconds": 5
+    "seconds": 30
   }
 }

@@ -1,64 +1,70 @@
 {
   "trainingPhrases": [ {
     "parts": [ {
-      "text": "Server",
-      "auto": true
-    }, {
-      "text": ": Prenotazione effettuata con successo."
-    } ],
-    "repeatCount": 1,
-    "languageCode": "it"
-  }, {
-    "parts": [ {
-      "text": "noleggia "
-    }, {
-      "text": "una",
-      "auto": true
-    }, {
-      "text": " "
+      "text": "noleggia una "
     }, {
       "text": "opel corsa",
       "parameterId": "CarType"
     }, {
       "text": " "
     }, {
-      "text": "oggi alle 07.30",
-      "parameterId": "date-time",
-      "auto": true
+      "text": "oggi",
+      "parameterId": "date"
+    }, {
+      "text": " alle "
+    }, {
+      "text": "07.30",
+      "parameterId": "time"
+    }, {
+      "text": "  a "
+    }, {
+      "text": "milano",
+      "parameterId": "ProvinceEntity"
     } ],
     "repeatCount": 1,
     "languageCode": "it"
   }, {
     "parts": [ {
-      "text": "prenotami "
-    }, {
-      "text": "una",
-      "auto": true
-    }, {
-      "text": " "
+      "text": "prenotami una "
     }, {
       "text": "fiat panda",
       "parameterId": "CarType"
     }, {
       "text": " "
     }, {
-      "text": "dopodomani alle 23.30",
-      "parameterId": "date-time",
-      "auto": true
+      "text": "dopodomani",
+      "parameterId": "date"
+    }, {
+      "text": " alle "
+    }, {
+      "text": "23.30",
+      "parameterId": "time"
+    }, {
+      "text": " a "
+    }, {
+      "text": "firenze",
+      "parameterId": "ProvinceEntity"
     } ],
     "repeatCount": 1,
     "languageCode": "it"
   }, {
     "parts": [ {
-      "text": "prenota  "
+      "text": "prenota  un auto per "
     }, {
-      "text": "un auto",
-      "parameterId": "CarType"
-    }, {
-      "text": " per "
-    }, {
-      "text": "domani alle 12.15",
+      "text": "domani",
       "parameterId": "date-time"
+    }, {
+      "text": " alle "
+    }, {
+      "text": "12.15",
+      "parameterId": "time"
+    }, {
+      "text": " a "
+    }, {
+      "text": "napoli",
+      "parameterId": "ProvinceEntity"
+    }, {
+      "text": " "
     } ],
     "repeatCount": 1,
     "languageCode": "it"
@@ -71,8 +77,13 @@
     }, {
       "text": " il "
     }, {
-      "text": "15 ottobre alle 21.30",
-      "parameterId": "date-time"
+      "text": "15 ottobre",
+      "parameterId": "date"
+    }, {
+      "text": " alle "
+    }, {
+      "text": "21.30",
+      "parameterId": "time"
     }, {
       "text": "   "
     } ],

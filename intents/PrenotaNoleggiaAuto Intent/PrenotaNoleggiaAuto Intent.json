@@ -9,7 +9,19 @@
     "id": "CarType",
     "entityType": "@CarType",
     "isList": true
+  }, {
+    "id": "ProvinceEntity",
+    "entityType": "@ProvinceEntity",
+    "isList": true
+  }, {
+    "id": "date",
+    "entityType": "@sys.date",
+    "isList": true
+  }, {
+    "id": "time",
+    "entityType": "@sys.time",
+    "isList": true
   } ],
   "priority": 500000,
-  "numTrainingPhrases": 5
+  "numTrainingPhrases": 4
 }

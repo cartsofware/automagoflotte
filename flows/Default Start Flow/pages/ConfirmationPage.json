@@ -1,23 +1,13 @@
 {
-  "name": "4307f7df-5ee8-4153-8dfe-31e8c64e1301",
+  "name": "56f6f6b9-ceee-4b7f-930b-36fcc8789570",
   "displayName": "ConfirmationPage",
   "form": {
-    "parameters": [ {
-      "displayName": "disponibilitaAuto",
-      "entityType": "@sys.any",
-      "fillBehavior": {
-        "initialPromptFulfillment": {
-          "nextActionOverride": {
-          
-          }
-        }
-      }
-    } ]
+  
   },
   "entryFulfillment": {
     "messages": [ {
       "text": {
-        "text": [ "- auto - $session.parameters -$session.param -" ]
+        "text": [ "Complimenti, hai prenotato l'auto $session.params.cartype in $session.params.provinceentity alle $session.params.date-time" ]
       },
       "languageCode": "it"
     } ],

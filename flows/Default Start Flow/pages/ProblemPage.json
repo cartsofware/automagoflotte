@@ -1,0 +1,37 @@
+{
+  "name": "4307f7df-5ee8-4153-8dfe-31e8c64e1301",
+  "displayName": "ProblemPage",
+  "form": {
+    "parameters": [ {
+      "displayName": "disponibilitaAuto",
+      "entityType": "@sys.any",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "nextActionOverride": {
+          
+          }
+        }
+      }
+    } ]
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Non sei riuscito a prenotare perchè mancano alcuni parametri: l'auto $session.params.cartype in $session.params.provinceentity alle $session.params.date-time" ]
+      },
+      "languageCode": "it"
+    } ],
+    "nextActionOverride": {
+    
+    }
+  },
+  "transitionRoutes": [ {
+    "condition": "true",
+    "triggerFulfillment": {
+      "nextActionOverride": {
+      
+      }
+    },
+    "name": "6733184e-2ea5-4318-a1a4-94a1a87f441f"
+  } ]
+}

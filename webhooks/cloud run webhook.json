@@ -1,0 +1,11 @@
+{
+  "name": "1fa79b5b-b260-4ddb-80f1-c6abbe0b7ecd",
+  "displayName": "cloud run webhook",
+  "genericWebService": {
+    "uri": "https://us-central1-goflotte-70164.cloudfunctions.net/goflotte",
+    "webhookType": "STANDARD"
+  },
+  "timeout": {
+    "seconds": 5
+  }
+}

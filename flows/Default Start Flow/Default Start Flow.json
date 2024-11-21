@@ -7,7 +7,7 @@
     "triggerFulfillment": {
       "messages": [ {
         "text": {
-          "text": [ "Ciao! Cosa ti serve? (start page/Default Intent)", "Buongiorno! Cosa ti serve? (start page/Default Intent)" ]
+          "text": [ "Ciao! Prenota pure", "Buongiorno! Noleggia pure un mezzo" ]
         },
         "languageCode": "it"
       } ],
