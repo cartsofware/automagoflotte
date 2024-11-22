@@ -1,0 +1,58 @@
+{
+  "name": "5a6555b7-a678-4781-be62-58227c16ee39",
+  "displayName": "RichiediAutoTime",
+  "form": {
+    "parameters": [ {
+      "displayName": "AutoParam",
+      "required": true,
+      "entityType": "@CarType",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+        
+        }
+      }
+    }, {
+      "displayName": "TimeParam",
+      "required": true,
+      "entityType": "@sys.time",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+        
+        }
+      }
+    } ]
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "quale auto e quale orario?" ]
+      },
+      "languageCode": "it"
+    } ],
+    "nextActionOverride": {
+    
+    }
+  },
+  "transitionRoutes": [ {
+    "condition": "$session.params.autoparam != null AND $session.params.time != null",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Current Page",
+    "name": "83910b49-7496-48e4-b674-485a5788be14"
+  }, {
+    "condition": "$session.params.autoparam != null",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "RichiediAuto",
+    "name": "d990e315-c0c8-4f03-9cd4-9832f19b6e53"
+  }, {
+    "condition": "$session.params.time != null",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "RichiediTime",
+    "name": "1c2fc2ec-0ad9-4950-9e41-463ba52662a6"
+  } ]
+}

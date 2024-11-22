@@ -7,7 +7,7 @@
   "entryFulfillment": {
     "messages": [ {
       "text": {
-        "text": [ "Complimenti, hai prenotato l'auto $session.params.cartype in $session.params.provinceentity alle $session.params.date-time" ]
+        "text": [ "Complimenti, hai prenotato l'auto $session.params.autoparam alle $session.params.date alle $session.params.time" ]
       },
       "languageCode": "it"
     } ],

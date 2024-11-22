@@ -1,5 +1,6 @@
 {
   "trainingPhrases": [ {
+    "id": "f5576773-48df-4015-aa7d-548b12103ca7",
     "parts": [ {
       "text": "Server"
     }, {
@@ -13,8 +14,9 @@
       "auto": true
     } ],
     "repeatCount": 1,
-    "languageCode": "it"
+    "languageCode": "it-it"
   }, {
+    "id": "bd7845d4-ea45-4316-81a6-4266409d9893",
     "parts": [ {
       "text": "Auto",
       "parameterId": "cartype",
@@ -24,6 +26,6 @@
       "auto": true
     } ],
     "repeatCount": 1,
-    "languageCode": "it"
+    "languageCode": "it-it"
   } ]
 }

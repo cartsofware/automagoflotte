@@ -10,6 +10,11 @@
           "text": [ "Ciao! Prenota pure", "Buongiorno! Noleggia pure un mezzo" ]
         },
         "languageCode": "it"
+      }, {
+        "text": {
+          "text": [ "Ciao!", "Buongiorno!" ]
+        },
+        "languageCode": "it-it"
       } ],
       "nextActionOverride": {
       
@@ -32,6 +37,11 @@
           "text": [ "Non penso di seguirti. Potresti ripetere?", "Potresti dirlo ancora una volta?", "Potresti essere più specifico?", "Non ho capito bene. Potresti ripetere?", "Non ti ho sentito bene. Puoi ripetere?" ]
         },
         "languageCode": "it"
+      }, {
+        "text": {
+          "text": [ "Non penso di seguirti. Potresti ripetere?", "Potresti dirlo ancora una volta?", "Potresti essere più specifico?", "Non ho capito bene. Potresti ripetere?", "Non ti ho sentito bene. Puoi ripetere?" ]
+        },
+        "languageCode": "it-it"
       } ]
     },
     "name": "229c2619-7370-4acd-81af-31e3b44773b4"
@@ -43,6 +53,11 @@
           "text": [ "Non penso di seguirti. Potresti ripetere?", "Potresti dirlo ancora una volta?", "Potresti essere più specifico?", "Non ho capito bene. Potresti ripetere?", "Non ti ho sentito bene. Puoi ripetere?" ]
         },
         "languageCode": "it"
+      }, {
+        "text": {
+          "text": [ "Non penso di seguirti. Potresti ripetere?", "Potresti dirlo ancora una volta?", "Potresti essere più specifico?", "Non ho capito bene. Potresti ripetere?", "Non ti ho sentito bene. Puoi ripetere?" ]
+        },
+        "languageCode": "it-it"
       } ]
     },
     "name": "825b09a0-d910-448b-8fd2-16a8ea5177b4"

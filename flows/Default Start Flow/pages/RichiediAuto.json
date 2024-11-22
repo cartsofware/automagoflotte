@@ -1,0 +1,35 @@
+{
+  "name": "fdeb687b-7b5a-4b5e-9f93-a4272761d25d",
+  "displayName": "RichiediAuto",
+  "form": {
+    "parameters": [ {
+      "displayName": "AutoParam",
+      "required": true,
+      "entityType": "@CarType",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+        
+        }
+      }
+    } ]
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Quale auto?" ]
+      },
+      "languageCode": "it"
+    } ],
+    "nextActionOverride": {
+    
+    }
+  },
+  "transitionRoutes": [ {
+    "condition": "$session.params.autoparam != null",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "ConfirmationPage",
+    "name": "88578376-c8a2-4ebe-a54b-51c2595ccd05"
+  } ]
+}

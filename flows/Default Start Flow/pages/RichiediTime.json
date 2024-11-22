@@ -1,0 +1,35 @@
+{
+  "name": "d5619069-c081-41cb-b0d9-2f988cc36b76",
+  "displayName": "RichiediTime",
+  "form": {
+    "parameters": [ {
+      "displayName": "TimeParam",
+      "required": true,
+      "entityType": "@sys.time",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+        
+        }
+      }
+    } ]
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "In quale orario?" ]
+      },
+      "languageCode": "it"
+    } ],
+    "nextActionOverride": {
+    
+    }
+  },
+  "transitionRoutes": [ {
+    "condition": "$session.params.time != null",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "ConfirmationPage",
+    "name": "fb3dd41e-569e-4de7-b0bc-5d0e3b960346"
+  } ]
+}

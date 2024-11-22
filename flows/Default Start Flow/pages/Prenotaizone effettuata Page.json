@@ -3,43 +3,18 @@
   "displayName": "Prenotaizone effettuata Page",
   "form": {
     "parameters": [ {
-      "displayName": "LuogoRitiroParam",
+      "displayName": "DateParam",
       "required": true,
-      "entityType": "@ProvinceEntity",
-      "isList": true,
+      "entityType": "@sys.date",
       "fillBehavior": {
         "initialPromptFulfillment": {
-          "messages": [ {
-            "text": {
-              "text": [ "In che luogo vuoi ritirare l'auto?" ]
-            },
-            "languageCode": "it"
-          } ],
           "nextActionOverride": {
           
           }
         }
       }
     }, {
-      "displayName": "DateTimeParam",
-      "required": true,
-      "entityType": "@sys.date-time",
-      "isList": true,
-      "fillBehavior": {
-        "initialPromptFulfillment": {
-          "messages": [ {
-            "text": {
-              "text": [ "In che data vorresti prenotare l'auto?" ]
-            },
-            "languageCode": "it"
-          } ],
-          "nextActionOverride": {
-          
-          }
-        }
-      }
-    }, {
-      "displayName": "CarParam",
+      "displayName": "AutoParam",
       "required": true,
       "entityType": "@CarType",
       "isList": true,
@@ -56,6 +31,16 @@
           }
         }
       }
+    }, {
+      "displayName": "TimeParam",
+      "required": true,
+      "entityType": "@sys.time",
+      "isList": true,
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+        
+        }
+      }
     } ]
   },
   "entryFulfillment": {
@@ -66,49 +51,46 @@
     }
   },
   "transitionRoutes": [ {
-    "condition": "$session.params.cartype = null",
+    "condition": "$session.params.autoparam = null AND $session.params.date = null",
     "triggerFulfillment": {
-      "messages": [ {
-        "text": {
-          "text": [ "Non hai inserito l'auto desiderata, prego provvedi" ]
-        },
-        "languageCode": "it"
-      } ],
       "nextActionOverride": {
       
       }
     },
-    "targetPage": "ProblemPage",
-    "name": "ce4d9e98-3181-4a06-8c80-447f41a3e736"
+    "targetPage": "RichiediAutoDate",
+    "name": "bd9717d0-6043-4221-be07-c267f86aea68"
   }, {
-    "condition": "$session.params.date-time = null",
+    "condition": "$session.params.autoparam = null AND $session.params.time = null",
     "triggerFulfillment": {
-      "messages": [ {
-        "text": {
-          "text": [ "Hai dimenticato di inserire una data e un orario. Prego inseriscili" ]
-        },
-        "languageCode": "it"
-      } ],
       "nextActionOverride": {
       
       }
     },
+    "targetPage": "RichiediAutoTime",
+    "name": "d43f477a-dbd1-4b1e-837b-3586aaef5faf"
+  }, {
+    "condition": "$session.params.date != null AND $session.params.time != null AND $session.params.autoparam != null",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "ConfirmationPage",
+    "name": "e84e33b5-ad43-436a-bf29-7d7eb472db1f"
+  }, {
+    "condition": "$session.params.time = null",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "RichiediTime",
+    "name": "4b492a86-602f-454b-ba38-519d1b4c7225"
+  }, {
+    "condition": "$session.params.date = null",
+    "triggerFulfillment": {
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetPage": "RichiediData",
     "name": "87daf330-5939-4bce-ade6-e1f4be5e3d27"
-  }, {
-    "condition": "$session.params.provinceentity = null",
-    "triggerFulfillment": {
-      "messages": [ {
-        "text": {
-          "text": [ "Hai dimenticato di inserire la provincia? Prego inseriscila" ]
-        },
-        "languageCode": "it"
-      } ],
-      "nextActionOverride": {
-      
-      }
-    },
-    "targetPage": "ProblemPage",
-    "name": "e371612d-2905-46be-8357-56d0fac7ef21"
   }, {
     "condition": "$session.params.auto = 1",
     "triggerFulfillment": {
@@ -119,42 +101,19 @@
     "targetPage": "ConfirmationPage",
     "name": "53733467-23d5-42d8-af60-94ef5ba3c6f8"
   }, {
-    "condition": "$session.params.date-time != null AND $session.params.cartype != null AND $session.params.provinceentity != null",
-    "triggerFulfillment": {
-    
-    },
-    "targetPage": "ConfirmationPage",
-    "name": "e84e33b5-ad43-436a-bf29-7d7eb472db1f"
-  }, {
     "condition": "$page.params.status = \"FINAL\"",
     "triggerFulfillment": {
-      "messages": [ {
-        "text": {
-          "text": [ "Ok, hai prenotato l'auto $session.params.CarParam in $session.params.LuogoRitiroParam alle $session.params.date-time" ]
-        },
-        "languageCode": "it"
-      } ],
       "nextActionOverride": {
       
       }
     },
     "targetPage": "ConfirmationPage",
     "name": "d6700835-6d59-4910-9f53-fdc994ae6747"
-  } ],
-  "eventHandlers": [ {
-    "targetPage": "Current Page",
-    "event": "sys.no-match-default",
+  }, {
+    "condition": "$session.params.autoparam = null",
     "triggerFulfillment": {
-      "messages": [ {
-        "text": {
-          "text": [ "Hai dimenticato di inserire alcuni parametri!" ]
-        },
-        "languageCode": "it"
-      } ],
-      "nextActionOverride": {
-      
-      }
+    
     },
-    "name": "e7fa22e6-2f38-4b7c-9635-c43860e6aed9"
+    "name": "ff953d33-362f-4ddc-947f-28a68e269eaf"
   } ]
 }

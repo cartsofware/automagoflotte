@@ -2,5 +2,5 @@
   "name": "b955368a-9e8a-4073-9ded-a145ed754c7f",
   "displayName": "NegativeReponseIntent",
   "priority": 500000,
-  "numTrainingPhrases": 3
+  "numTrainingPhrases": 6
 }

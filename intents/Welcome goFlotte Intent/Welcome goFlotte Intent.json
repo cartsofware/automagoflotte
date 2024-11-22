@@ -2,5 +2,5 @@
   "name": "600f38da-6ec2-4a02-b2a1-a7c8a0c0329d",
   "displayName": "Welcome goFlotte Intent",
   "priority": 500000,
-  "numTrainingPhrases": 2
+  "numTrainingPhrases": 4
 }

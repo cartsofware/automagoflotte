@@ -1,5 +1,6 @@
 {
   "defaultLanguageCode": "it",
+  "supportedLanguageCodes": [ "it-it" ],
   "timeZone": "America/Los_Angeles",
   "enableLogging": true,
   "projectNumber": 456806182288,

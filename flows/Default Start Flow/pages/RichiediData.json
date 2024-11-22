@@ -1,10 +1,11 @@
 {
-  "name": "4307f7df-5ee8-4153-8dfe-31e8c64e1301",
-  "displayName": "ProblemPage",
+  "name": "a624a1e3-f636-443a-b56b-367e2ea4bc1d",
+  "displayName": "RichiediData",
   "form": {
     "parameters": [ {
-      "displayName": "disponibilitaAuto",
-      "entityType": "@sys.any",
+      "displayName": "date",
+      "required": true,
+      "entityType": "@sys.date",
       "fillBehavior": {
         "initialPromptFulfillment": {
           "nextActionOverride": {
@@ -17,7 +18,7 @@
   "entryFulfillment": {
     "messages": [ {
       "text": {
-        "text": [ "Non sei riuscito a prenotare perchè mancano alcuni parametri: l'auto $session.params.cartype in $session.params.provinceentity alle $session.params.date-time" ]
+        "text": [ "In quale data?" ]
       },
       "languageCode": "it"
     } ],
@@ -26,12 +27,13 @@
     }
   },
   "transitionRoutes": [ {
-    "condition": "true",
+    "condition": "$page.params.date != null",
     "triggerFulfillment": {
       "nextActionOverride": {
       
       }
     },
-    "name": "6733184e-2ea5-4318-a1a4-94a1a87f441f"
+    "targetPage": "ConfirmationPage",
+    "name": "41b5011f-9fb3-47e7-90ad-3ebab8fab5e5"
   } ]
 }

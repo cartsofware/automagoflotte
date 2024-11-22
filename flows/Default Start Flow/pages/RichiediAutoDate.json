@@ -1,0 +1,53 @@
+{
+  "name": "44724370-36dc-467f-9603-8d71134cf7d6",
+  "displayName": "RichiediAutoDate",
+  "form": {
+    "parameters": [ {
+      "displayName": "AutoParam",
+      "required": true,
+      "entityType": "@CarType",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+        
+        }
+      }
+    }, {
+      "displayName": "DateParam",
+      "required": true,
+      "entityType": "@sys.date",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+        
+        }
+      }
+    } ]
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "quale auto  e in quale data?" ]
+      },
+      "languageCode": "it"
+    } ],
+    "nextActionOverride": {
+    
+    }
+  },
+  "transitionRoutes": [ {
+    "condition": "$session.params.autoparam != null AND $session.params.dateparam != null",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "ConfirmationPage",
+    "name": "b0affddd-f389-4092-9c8a-248c219c4b45"
+  }, {
+    "condition": "$session.params.autoparam = null",
+    "triggerFulfillment": {
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetPage": "RichiediAuto",
+    "name": "4392daee-3251-4792-8820-f856d1da7773"
+  } ]
+}

@@ -1,0 +1,19 @@
+{
+  "trainingPhrases": [ {
+    "id": "723b5234-8b0e-4eb8-8868-ed956f77954e",
+    "parts": [ {
+      "text": "app goflotte",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "it-it"
+  }, {
+    "id": "71d740fd-0501-47e1-99b0-c3d07d4fc5d0",
+    "parts": [ {
+      "text": "usa goflotte",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "it-it"
+  } ]
+}

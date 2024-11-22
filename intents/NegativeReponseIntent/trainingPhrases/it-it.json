@@ -1,0 +1,27 @@
+{
+  "trainingPhrases": [ {
+    "id": "a24fa508-cb6f-4a36-b4d9-36a6693d9a52",
+    "parts": [ {
+      "text": "basta",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "it-it"
+  }, {
+    "id": "f7f2991f-9c75-4413-ac61-2f6034b100db",
+    "parts": [ {
+      "text": "niente",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "it-it"
+  }, {
+    "id": "560195e1-9350-4d5b-8db0-eb6579edec79",
+    "parts": [ {
+      "text": "no",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "it-it"
+  } ]
+}

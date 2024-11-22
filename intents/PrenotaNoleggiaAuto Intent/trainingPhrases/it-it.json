@@ -1,85 +1,60 @@
 {
   "trainingPhrases": [ {
+    "id": "ac354d92-dc40-4bdc-b2c8-9f3f6521dde8",
     "parts": [ {
-      "text": "riserva ",
-      "auto": true
-    }, {
-      "text": "oggi",
-      "parameterId": "date"
-    } ],
-    "repeatCount": 1,
-    "languageCode": "it"
-  }, {
-    "parts": [ {
-      "text": "prenota ",
-      "auto": true
-    }, {
-      "text": "domani",
-      "parameterId": "date"
-    } ],
-    "repeatCount": 1,
-    "languageCode": "it"
-  }, {
-    "parts": [ {
-      "text": "prenota ",
-      "auto": true
+      "text": "prenota "
     }, {
       "text": "una"
     }, {
-      "text": " ",
-      "auto": true
+      "text": " "
     }, {
       "text": "opel",
       "parameterId": "CarType",
       "auto": true
     }, {
-      "text": " il ",
-      "auto": true
+      "text": " il "
     }, {
       "text": "14 febbraio",
       "parameterId": "date",
       "auto": true
     }, {
-      "text": " alle ",
-      "auto": true
+      "text": " alle "
     }, {
       "text": "02.15",
       "parameterId": "time",
       "auto": true
     } ],
     "repeatCount": 1,
-    "languageCode": "it"
+    "languageCode": "it-it"
   }, {
+    "id": "64d4ad47-e310-49a4-9f2f-91039bda3637",
     "parts": [ {
-      "text": "riserva ",
-      "auto": true
+      "text": "riserva "
     }, {
       "text": "una"
     }, {
-      "text": " ",
-      "auto": true
+      "text": " "
     }, {
       "text": "fiat panda",
       "parameterId": "CarType",
       "auto": true
     }, {
-      "text": " ",
-      "auto": true
+      "text": " "
     }, {
       "text": "11 novembre 2024",
       "parameterId": "date",
       "auto": true
     }, {
-      "text": " alle ",
-      "auto": true
+      "text": " alle "
     }, {
       "text": "09.30",
       "parameterId": "time",
       "auto": true
     } ],
     "repeatCount": 1,
-    "languageCode": "it"
+    "languageCode": "it-it"
   }, {
+    "id": "2a5aaed5-b31e-41f1-a065-b9f92f646994",
     "parts": [ {
       "text": "noleggia una "
     }, {
@@ -102,8 +77,9 @@
       "parameterId": "ProvinceEntity"
     } ],
     "repeatCount": 1,
-    "languageCode": "it"
+    "languageCode": "it-it"
   }, {
+    "id": "769969df-d61c-431e-937e-50e561319118",
     "parts": [ {
       "text": "prenotami una "
     }, {
@@ -126,8 +102,9 @@
       "parameterId": "ProvinceEntity"
     } ],
     "repeatCount": 1,
-    "languageCode": "it"
+    "languageCode": "it-it"
   }, {
+    "id": "a9ece9cc-fe9d-4d37-8fba-e6e4bca55614",
     "parts": [ {
       "text": "prenota  un auto per "
     }, {
@@ -147,8 +124,9 @@
       "text": " "
     } ],
     "repeatCount": 1,
-    "languageCode": "it"
+    "languageCode": "it-it"
   }, {
+    "id": "4ed9017f-ebff-44a0-ac6f-6906355bf8dd",
     "parts": [ {
       "text": "vorrei noleggiare una "
     }, {
@@ -168,6 +146,6 @@
       "text": "   "
     } ],
     "repeatCount": 1,
-    "languageCode": "it"
+    "languageCode": "it-it"
   } ]
 }

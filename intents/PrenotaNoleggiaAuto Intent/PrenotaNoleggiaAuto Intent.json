@@ -2,26 +2,21 @@
   "name": "694e126c-1531-47d3-8da3-cc4d13576afd",
   "displayName": "PrenotaNoleggiaAuto Intent",
   "parameters": [ {
-    "id": "date-time",
-    "entityType": "@sys.date-time",
-    "isList": true
-  }, {
     "id": "CarType",
-    "entityType": "@CarType",
-    "isList": true
+    "entityType": "@CarType"
   }, {
     "id": "ProvinceEntity",
-    "entityType": "@ProvinceEntity",
-    "isList": true
+    "entityType": "@ProvinceEntity"
   }, {
     "id": "date",
-    "entityType": "@sys.date",
-    "isList": true
+    "entityType": "@sys.date"
   }, {
     "id": "time",
-    "entityType": "@sys.time",
-    "isList": true
+    "entityType": "@sys.time"
+  }, {
+    "id": "number",
+    "entityType": "@sys.number"
   } ],
   "priority": 500000,
-  "numTrainingPhrases": 4
+  "numTrainingPhrases": 14
 }

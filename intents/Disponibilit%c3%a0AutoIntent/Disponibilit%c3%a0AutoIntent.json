@@ -4,10 +4,7 @@
   "parameters": [ {
     "id": "cartype",
     "entityType": "@CarType"
-  }, {
-    "id": "autodisponibileentity",
-    "entityType": "@AutoDisponibileEntity"
   } ],
   "priority": 500000,
-  "numTrainingPhrases": 2
+  "numTrainingPhrases": 4
 }

@@ -1,0 +1,7 @@
+{
+  "entities": [ {
+    "value": "provincia",
+    "synonyms": [ "bologna", "firenze", "milano", "napoli", "provincia", "roma", "torino" ],
+    "languageCode": "it-it"
+  } ]
+}
