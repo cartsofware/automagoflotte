@@ -3,20 +3,27 @@
   "displayName": "RichiediTime",
   "form": {
     "parameters": [ {
-      "displayName": "TimeParam",
+      "displayName": "Time",
       "required": true,
       "entityType": "@sys.time",
       "fillBehavior": {
         "initialPromptFulfillment": {
         
-        }
+        },
+        "repromptEventHandlers": [ {
+          "event": "sys.no-match-default",
+          "triggerFulfillment": {
+          
+          },
+          "name": "b66a2142-9da1-4135-bfbe-d17fd3a735ba"
+        } ]
       }
     } ]
   },
   "entryFulfillment": {
     "messages": [ {
       "text": {
-        "text": [ "In quale orario?" ]
+        "text": [ "RichiediTime fullfill: In quale orario?" ]
       },
       "languageCode": "it"
     } ],
@@ -30,6 +37,21 @@
     
     },
     "targetPage": "ConfirmationPage",
-    "name": "fb3dd41e-569e-4de7-b0bc-5d0e3b960346"
+    "name": "42c6e613-eea3-4bf1-b6f8-365a8d35c778"
+  }, {
+    "condition": "$session.params.autoparam != null AND $session.params.date != null AND $session.params.time != null",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "ConfirmationPage",
+    "name": "60182a52-34dd-492f-959d-fb4d85fde446"
+  } ],
+  "eventHandlers": [ {
+    "targetPage": "Current Page",
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+    
+    },
+    "name": "76eeab31-400b-41b5-950b-574886df23db"
   } ]
 }

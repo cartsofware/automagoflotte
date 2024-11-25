@@ -3,7 +3,7 @@
   "displayName": "RichiediData",
   "form": {
     "parameters": [ {
-      "displayName": "date",
+      "displayName": "DateParam",
       "required": true,
       "entityType": "@sys.date",
       "fillBehavior": {
@@ -11,7 +11,14 @@
           "nextActionOverride": {
           
           }
-        }
+        },
+        "repromptEventHandlers": [ {
+          "event": "sys.no-match-default",
+          "triggerFulfillment": {
+          
+          },
+          "name": "52acfa3e-ff4b-4c69-9228-5bcb61a6d724"
+        } ]
       }
     } ]
   },
@@ -27,7 +34,7 @@
     }
   },
   "transitionRoutes": [ {
-    "condition": "$page.params.date != null",
+    "condition": "$session.params.dateparam != null",
     "triggerFulfillment": {
       "nextActionOverride": {
       

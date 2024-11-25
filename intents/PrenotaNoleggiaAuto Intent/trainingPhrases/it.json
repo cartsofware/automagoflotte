@@ -1,6 +1,1306 @@
 {
   "trainingPhrases": [ {
     "parts": [ {
+      "text": "Puoi organizzare una prenotazione "
+    }, {
+      "text": "Fiat Panda",
+      "parameterId": "autoparam",
+      "auto": true
+    }, {
+      "text": " per "
+    }, {
+      "text": "domani",
+      "parameterId": "date",
+      "auto": true
+    }, {
+      "text": " alle "
+    }, {
+      "text": "tredici e trenta",
+      "parameterId": "time"
+    }, {
+      "text": "?"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "it"
+  }, {
+    "parts": [ {
+      "text": "Per favore, "
+    }, {
+      "text": "Panda",
+      "parameterId": "autoparam",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "domani",
+      "parameterId": "date",
+      "auto": true
+    }, {
+      "text": " alle "
+    }, {
+      "text": "13:30",
+      "parameterId": "time"
+    }, {
+      "text": ", prenotala."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "it"
+  }, {
+    "parts": [ {
+      "text": "Voglio riservare una "
+    }, {
+      "text": "Fiat Panda",
+      "parameterId": "autoparam",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "domani",
+      "parameterId": "date",
+      "auto": true
+    }, {
+      "text": " alle "
+    }, {
+      "text": "13:30",
+      "parameterId": "time"
+    }, {
+      "text": "."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "it"
+  }, {
+    "parts": [ {
+      "text": "Fiat Panda",
+      "parameterId": "autoparam",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "domani",
+      "parameterId": "date",
+      "auto": true
+    }, {
+      "text": " alle "
+    }, {
+      "text": "tredici e trenta",
+      "parameterId": "time"
+    }, {
+      "text": ", prenotala."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "it"
+  }, {
+    "parts": [ {
+      "text": "Prenotami una "
+    }, {
+      "text": "Fiat Panda",
+      "parameterId": "autoparam",
+      "auto": true
+    }, {
+      "text": " per "
+    }, {
+      "text": "domani",
+      "parameterId": "date",
+      "auto": true
+    }, {
+      "text": ", "
+    }, {
+      "text": "tredici e trenta",
+      "parameterId": "time"
+    }, {
+      "text": "."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "it"
+  }, {
+    "parts": [ {
+      "text": "Domani",
+      "parameterId": "date",
+      "auto": true
+    }, {
+      "text": " alle ",
+      "auto": true
+    }, {
+      "text": "13.30",
+      "parameterId": "time",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "mi"
+    }, {
+      "text": " prenoti ",
+      "auto": true
+    }, {
+      "text": "una"
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "Panda",
+      "parameterId": "autoparam",
+      "auto": true
+    }, {
+      "text": "?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "it"
+  }, {
+    "parts": [ {
+      "text": "Serve una prenotazione "
+    }, {
+      "text": "Fiat Panda",
+      "parameterId": "autoparam",
+      "auto": true
+    }, {
+      "text": " per "
+    }, {
+      "text": "domani",
+      "parameterId": "date",
+      "auto": true
+    }, {
+      "text": " alle "
+    }, {
+      "text": "13:30",
+      "parameterId": "time"
+    }, {
+      "text": "."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "it"
+  }, {
+    "parts": [ {
+      "text": "Puoi fissare una "
+    }, {
+      "text": "Panda",
+      "parameterId": "autoparam",
+      "auto": true
+    }, {
+      "text": " per "
+    }, {
+      "text": "domani",
+      "parameterId": "date",
+      "auto": true
+    }, {
+      "text": " alle "
+    }, {
+      "text": "tredici e trenta",
+      "parameterId": "time"
+    }, {
+      "text": "?"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "it"
+  }, {
+    "parts": [ {
+      "text": "Voglio una "
+    }, {
+      "text": "Panda",
+      "parameterId": "autoparam",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "domani",
+      "parameterId": "date",
+      "auto": true
+    }, {
+      "text": " alle "
+    }, {
+      "text": "13:30,",
+      "parameterId": "time"
+    }, {
+      "text": " prenotala."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "it"
+  }, {
+    "parts": [ {
+      "text": "Prenota una macchina "
+    }, {
+      "text": "Fiat Panda",
+      "parameterId": "autoparam",
+      "auto": true
+    }, {
+      "text": " per "
+    }, {
+      "text": "domani",
+      "parameterId": "date",
+      "auto": true
+    }, {
+      "text": " alle "
+    }, {
+      "text": "tredici e trenta",
+      "parameterId": "time"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "it"
+  }, {
+    "parts": [ {
+      "text": "Panda "
+    }, {
+      "text": "domani",
+      "parameterId": "date",
+      "auto": true
+    }, {
+      "text": " alle "
+    }, {
+      "text": "13 e 30",
+      "parameterId": "time"
+    }, {
+      "text": ", "
+    }, {
+      "text": "prenotala."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "it"
+  }, {
+    "parts": [ {
+      "text": "Prenotazione "
+    }, {
+      "text": "Fiat Panda",
+      "parameterId": "autoparam",
+      "auto": true
+    }, {
+      "text": " per "
+    }, {
+      "text": "domani",
+      "parameterId": "date",
+      "auto": true
+    }, {
+      "text": " alle "
+    }, {
+      "text": "tredici e mezza",
+      "parameterId": "time"
+    }, {
+      "text": "."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "it"
+  }, {
+    "parts": [ {
+      "text": "Voglio una "
+    }, {
+      "text": "Panda",
+      "parameterId": "autoparam",
+      "auto": true
+    }, {
+      "text": " noleggiata per "
+    }, {
+      "text": "domani",
+      "parameterId": "date",
+      "auto": true
+    }, {
+      "text": " pomeriggio alle "
+    }, {
+      "text": "13:30",
+      "parameterId": "time"
+    }, {
+      "text": "."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "it"
+  }, {
+    "parts": [ {
+      "text": "Domani",
+      "parameterId": "date",
+      "auto": true
+    }, {
+      "text": " alle "
+    }, {
+      "text": "tredici e trenta",
+      "parameterId": "time"
+    }, {
+      "text": ", riserva una "
+    }, {
+      "text": "Panda",
+      "parameterId": "autoparam",
+      "auto": true
+    }, {
+      "text": "."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "it"
+  }, {
+    "parts": [ {
+      "text": "Mi aiuti a prenotare ",
+      "auto": true
+    }, {
+      "text": "una",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "Panda",
+      "parameterId": "autoparam",
+      "auto": true
+    }, {
+      "text": " per ",
+      "auto": true
+    }, {
+      "text": "domani",
+      "parameterId": "date",
+      "auto": true
+    }, {
+      "text": " alle ",
+      "auto": true
+    }, {
+      "text": "13.30",
+      "parameterId": "time",
+      "auto": true
+    }, {
+      "text": "?"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "it"
+  }, {
+    "parts": [ {
+      "text": "Prenota per me ",
+      "auto": true
+    }, {
+      "text": "una",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "Fiat Panda",
+      "parameterId": "autoparam",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "domani",
+      "parameterId": "date",
+      "auto": true
+    }, {
+      "text": " alle ",
+      "auto": true
+    }, {
+      "text": "13:30",
+      "parameterId": "time",
+      "auto": true
+    }, {
+      "text": ".",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "it"
+  }, {
+    "parts": [ {
+      "text": "Domani",
+      "parameterId": "date",
+      "auto": true
+    }, {
+      "text": " alle ",
+      "auto": true
+    }, {
+      "text": "13.30",
+      "parameterId": "time",
+      "auto": true
+    }, {
+      "text": ", ",
+      "auto": true
+    }, {
+      "text": "Fiat Panda",
+      "parameterId": "autoparam",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "prenotata"
+    }, {
+      "text": ", per ",
+      "auto": true
+    }, {
+      "text": "favore."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "it"
+  }, {
+    "parts": [ {
+      "text": "Prenotami una macchina "
+    }, {
+      "text": "Fiat Panda",
+      "parameterId": "autoparam",
+      "auto": true
+    }, {
+      "text": " per "
+    }, {
+      "text": "domani",
+      "parameterId": "date",
+      "auto": true
+    }, {
+      "text": " alle "
+    }, {
+      "text": "tredici e trenta",
+      "parameterId": "time"
+    }, {
+      "text": "."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "it"
+  }, {
+    "parts": [ {
+      "text": "Serve una "
+    }, {
+      "text": "Panda",
+      "parameterId": "autoparam",
+      "auto": true
+    }, {
+      "text": " per "
+    }, {
+      "text": "domani",
+      "parameterId": "date",
+      "auto": true
+    }, {
+      "text": " alle "
+    }, {
+      "text": "13:30",
+      "parameterId": "time"
+    }, {
+      "text": ", puoi prenotarla?"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "it"
+  }, {
+    "parts": [ {
+      "text": "Noleggia una "
+    }, {
+      "text": "Fiat Panda",
+      "parameterId": "autoparam",
+      "auto": true
+    }, {
+      "text": " per "
+    }, {
+      "text": "domani",
+      "parameterId": "date",
+      "auto": true
+    }, {
+      "text": " alle "
+    }, {
+      "text": "13:30",
+      "parameterId": "time"
+    }, {
+      "text": "."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "it"
+  }, {
+    "parts": [ {
+      "text": "Fiat Panda",
+      "parameterId": "autoparam",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "domani",
+      "parameterId": "date",
+      "auto": true
+    }, {
+      "text": " alle "
+    }, {
+      "text": "13:30",
+      "parameterId": "time"
+    }, {
+      "text": ", la prenoti per me?"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "it"
+  }, {
+    "parts": [ {
+      "text": "Voglio noleggiare una "
+    }, {
+      "text": "Panda",
+      "parameterId": "autoparam",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "domani",
+      "parameterId": "date",
+      "auto": true
+    }, {
+      "text": " alle "
+    }, {
+      "text": "13:30",
+      "parameterId": "time"
+    }, {
+      "text": "."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "it"
+  }, {
+    "parts": [ {
+      "text": "Prenotazione "
+    }, {
+      "text": "Fiat Panda",
+      "parameterId": "autoparam",
+      "auto": true
+    }, {
+      "text": " per "
+    }, {
+      "text": "domani",
+      "parameterId": "date",
+      "auto": true
+    }, {
+      "text": " alle "
+    }, {
+      "text": "13 e 30",
+      "parameterId": "time"
+    }, {
+      "text": "."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "it"
+  }, {
+    "parts": [ {
+      "text": "Domani",
+      "parameterId": "date",
+      "auto": true
+    }, {
+      "text": " alle "
+    }, {
+      "text": "13:30",
+      "parameterId": "time"
+    }, {
+      "text": " riservo una "
+    }, {
+      "text": "Panda",
+      "parameterId": "autoparam",
+      "auto": true
+    }, {
+      "text": "."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "it"
+  }, {
+    "parts": [ {
+      "text": "Mi prenoti una "
+    }, {
+      "text": "Fiat Panda",
+      "parameterId": "autoparam",
+      "auto": true
+    }, {
+      "text": " per "
+    }, {
+      "text": "domani",
+      "parameterId": "date",
+      "auto": true
+    }, {
+      "text": " alle "
+    }, {
+      "text": "tredici e trenta",
+      "parameterId": "time"
+    }, {
+      "text": "?"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "it"
+  }, {
+    "parts": [ {
+      "text": "Per "
+    }, {
+      "text": "domani",
+      "parameterId": "date",
+      "auto": true
+    }, {
+      "text": " pomeriggio, alle "
+    }, {
+      "text": "13:30",
+      "parameterId": "time"
+    }, {
+      "text": ", prenota una "
+    }, {
+      "text": "Fiat Panda",
+      "parameterId": "autoparam",
+      "auto": true
+    }, {
+      "text": "."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "it"
+  }, {
+    "parts": [ {
+      "text": "Vorrei una "
+    }, {
+      "text": "Panda",
+      "parameterId": "autoparam",
+      "auto": true
+    }, {
+      "text": " prenotata "
+    }, {
+      "text": "domani",
+      "parameterId": "date",
+      "auto": true
+    }, {
+      "text": " alle "
+    }, {
+      "text": "13.30",
+      "parameterId": "time",
+      "auto": true
+    }, {
+      "text": "."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "it"
+  }, {
+    "parts": [ {
+      "text": "Prenotami un’"
+    }, {
+      "text": "auto"
+    }, {
+      "text": ", "
+    }, {
+      "text": "Fiat Panda",
+      "parameterId": "autoparam",
+      "auto": true
+    }, {
+      "text": ", per "
+    }, {
+      "text": "domani",
+      "parameterId": "date",
+      "auto": true
+    }, {
+      "text": " alle "
+    }, {
+      "text": "13:30",
+      "parameterId": "time"
+    }, {
+      "text": "."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "it"
+  }, {
+    "parts": [ {
+      "text": "Devo prenotare una "
+    }, {
+      "text": "Fiat Panda",
+      "parameterId": "autoparam",
+      "auto": true
+    }, {
+      "text": " per "
+    }, {
+      "text": "domani",
+      "parameterId": "date",
+      "auto": true
+    }, {
+      "text": " alle "
+    }, {
+      "text": "13:30",
+      "parameterId": "time"
+    }, {
+      "text": "."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "it"
+  }, {
+    "parts": [ {
+      "text": "Fiat Panda",
+      "parameterId": "autoparam",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "domani",
+      "parameterId": "date",
+      "auto": true
+    }, {
+      "text": " alle "
+    }, {
+      "text": "13 e 30",
+      "parameterId": "time"
+    }, {
+      "text": ", me la prenoti?"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "it"
+  }, {
+    "parts": [ {
+      "text": "Mi serve una "
+    }, {
+      "text": "Panda",
+      "parameterId": "autoparam",
+      "auto": true
+    }, {
+      "text": " per "
+    }, {
+      "text": "domani",
+      "parameterId": "date",
+      "auto": true
+    }, {
+      "text": " pomeriggio, alle "
+    }, {
+      "text": "13:30",
+      "parameterId": "time"
+    }, {
+      "text": "."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "it"
+  }, {
+    "parts": [ {
+      "text": "Domani",
+      "parameterId": "date",
+      "auto": true
+    }, {
+      "text": " alle ",
+      "auto": true
+    }, {
+      "text": "13.30",
+      "parameterId": "time",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "prenotami"
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "una"
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "Panda",
+      "parameterId": "autoparam",
+      "auto": true
+    }, {
+      "text": ".",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "it"
+  }, {
+    "parts": [ {
+      "text": "Prenota una "
+    }, {
+      "text": "Panda",
+      "parameterId": "autoparam",
+      "auto": true
+    }, {
+      "text": " per le "
+    }, {
+      "text": "13:30",
+      "parameterId": "time"
+    }, {
+      "text": " di "
+    }, {
+      "text": "domani",
+      "parameterId": "date",
+      "auto": true
+    }, {
+      "text": "."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "it"
+  }, {
+    "parts": [ {
+      "text": "Serve una "
+    }, {
+      "text": "Fiat Panda",
+      "parameterId": "autoparam",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "domani",
+      "parameterId": "date",
+      "auto": true
+    }, {
+      "text": " alle "
+    }, {
+      "text": "13",
+      "parameterId": "time",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "it"
+  }, {
+    "parts": [ {
+      "text": "Panda",
+      "parameterId": "autoparam",
+      "auto": true
+    }, {
+      "text": " per "
+    }, {
+      "text": "domani",
+      "parameterId": "date",
+      "auto": true
+    }, {
+      "text": " alle "
+    }, {
+      "text": "13:30",
+      "parameterId": "time"
+    }, {
+      "text": ", prenotala."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "it"
+  }, {
+    "parts": [ {
+      "text": "Vorrei noleggiare "
+    }, {
+      "text": "una"
+    }, {
+      "text": " "
+    }, {
+      "text": "Fiat Panda",
+      "parameterId": "autoparam",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "domani",
+      "parameterId": "date",
+      "auto": true
+    }, {
+      "text": " alle "
+    }, {
+      "text": "13:30",
+      "parameterId": "time"
+    }, {
+      "text": "."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "it"
+  }, {
+    "parts": [ {
+      "text": "Puoi fissarmi una "
+    }, {
+      "text": "Panda",
+      "parameterId": "autoparam",
+      "auto": true
+    }, {
+      "text": " per "
+    }, {
+      "text": "domani",
+      "parameterId": "date",
+      "auto": true
+    }, {
+      "text": " alle "
+    }, {
+      "text": "13:30",
+      "parameterId": "time"
+    }, {
+      "text": "?"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "it"
+  }, {
+    "parts": [ {
+      "text": "Prenota una "
+    }, {
+      "text": "Panda",
+      "parameterId": "autoparam",
+      "auto": true
+    }, {
+      "text": " per "
+    }, {
+      "text": "domani",
+      "parameterId": "date",
+      "auto": true
+    }, {
+      "text": " alle "
+    }, {
+      "text": "una e mezza",
+      "parameterId": "time"
+    }, {
+      "text": "."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "it"
+  }, {
+    "parts": [ {
+      "text": "Domani",
+      "parameterId": "date",
+      "auto": true
+    }, {
+      "text": " alle "
+    }, {
+      "text": "13:30",
+      "parameterId": "time",
+      "auto": true
+    }, {
+      "text": " voglio una "
+    }, {
+      "text": "Panda",
+      "parameterId": "autoparam",
+      "auto": true
+    }, {
+      "text": " prenotata"
+    }, {
+      "text": "."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "it"
+  }, {
+    "parts": [ {
+      "text": "Voglio noleggiare una "
+    }, {
+      "text": "Fiat Panda",
+      "parameterId": "autoparam",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "domani",
+      "parameterId": "date",
+      "auto": true
+    }, {
+      "text": " alle "
+    }, {
+      "text": "13:30",
+      "parameterId": "time"
+    }, {
+      "text": "."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "it"
+  }, {
+    "parts": [ {
+      "text": "Mi prenoti una "
+    }, {
+      "text": "Fiat Panda",
+      "parameterId": "autoparam",
+      "auto": true
+    }, {
+      "text": " per "
+    }, {
+      "text": "domani",
+      "parameterId": "date",
+      "auto": true
+    }, {
+      "text": " alle "
+    }, {
+      "text": "13 e 30",
+      "parameterId": "time"
+    }, {
+      "text": "?"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "it"
+  }, {
+    "parts": [ {
+      "text": "Prenota "
+    }, {
+      "text": "una"
+    }, {
+      "text": " "
+    }, {
+      "text": "Panda",
+      "parameterId": "autoparam",
+      "auto": true
+    }, {
+      "text": " per "
+    }, {
+      "text": "domani",
+      "parameterId": "date",
+      "auto": true
+    }, {
+      "text": " alle "
+    }, {
+      "text": "13.30",
+      "parameterId": "time"
+    }, {
+      "text": "."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "it"
+  }, {
+    "parts": [ {
+      "text": "Fiat Panda",
+      "parameterId": "autoparam",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "domani",
+      "parameterId": "date",
+      "auto": true
+    }, {
+      "text": " alle "
+    }, {
+      "text": "13:30",
+      "parameterId": "time"
+    }, {
+      "text": ", prenotala per "
+    }, {
+      "text": "favore."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "it"
+  }, {
+    "parts": [ {
+      "text": "Organizza la prenotazione "
+    }, {
+      "text": "di una"
+    }, {
+      "text": " "
+    }, {
+      "text": "Fiat Panda",
+      "parameterId": "autoparam",
+      "auto": true
+    }, {
+      "text": " per "
+    }, {
+      "text": "domani",
+      "parameterId": "date",
+      "auto": true
+    }, {
+      "text": " alle "
+    }, {
+      "text": "13:30",
+      "parameterId": "time"
+    }, {
+      "text": "."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "it"
+  }, {
+    "parts": [ {
+      "text": "Puoi prenotarmi "
+    }, {
+      "text": "una",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "Panda",
+      "parameterId": "autoparam",
+      "auto": true
+    }, {
+      "text": " per "
+    }, {
+      "text": "domani",
+      "parameterId": "date",
+      "auto": true
+    }, {
+      "text": " alle "
+    }, {
+      "text": "13.30",
+      "parameterId": "time",
+      "auto": true
+    }, {
+      "text": "?"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "it"
+  }, {
+    "parts": [ {
+      "text": "Mi serve "
+    }, {
+      "text": "una",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "Fiat Panda",
+      "parameterId": "autoparam",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "domani",
+      "parameterId": "date",
+      "auto": true
+    }, {
+      "text": " alle "
+    }, {
+      "text": "13:30",
+      "parameterId": "time"
+    }, {
+      "text": "."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "it"
+  }, {
+    "parts": [ {
+      "text": "Per favore, prenota "
+    }, {
+      "text": "una"
+    }, {
+      "text": " "
+    }, {
+      "text": "Fiat Panda",
+      "parameterId": "autoparam",
+      "auto": true
+    }, {
+      "text": " per le "
+    }, {
+      "text": "13:30",
+      "parameterId": "time"
+    }, {
+      "text": " di "
+    }, {
+      "text": "domani",
+      "parameterId": "date",
+      "auto": true
+    }, {
+      "text": "."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "it"
+  }, {
+    "parts": [ {
+      "text": "Prenotami "
+    }, {
+      "text": "una"
+    }, {
+      "text": " "
+    }, {
+      "text": "Panda",
+      "parameterId": "autoparam",
+      "auto": true
+    }, {
+      "text": " per "
+    }, {
+      "text": "domani",
+      "parameterId": "date",
+      "auto": true
+    }, {
+      "text": " pomeriggio alle "
+    }, {
+      "text": "13:30",
+      "parameterId": "time"
+    }, {
+      "text": "."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "it"
+  }, {
+    "parts": [ {
+      "text": "Voglio prenotare ",
+      "auto": true
+    }, {
+      "text": "una"
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "Fiat Panda",
+      "parameterId": "autoparam",
+      "auto": true
+    }, {
+      "text": " per ",
+      "auto": true
+    }, {
+      "text": "domani",
+      "parameterId": "date",
+      "auto": true
+    }, {
+      "text": " alle ",
+      "auto": true
+    }, {
+      "text": "13:30",
+      "parameterId": "time",
+      "auto": true
+    }, {
+      "text": ".",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "it"
+  }, {
+    "parts": [ {
+      "text": "riserva "
+    }, {
+      "text": "domani",
+      "parameterId": "date",
+      "auto": true
+    }, {
+      "text": " alle "
+    }, {
+      "text": "13.30",
+      "parameterId": "time"
+    }, {
+      "text": " "
+    }, {
+      "text": "fiat panda",
+      "parameterId": "autoparam",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "it"
+  }, {
+    "parts": [ {
+      "text": "il ",
+      "auto": true
+    }, {
+      "text": "14 febbraio",
+      "parameterId": "date",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "it"
+  }, {
+    "parts": [ {
+      "text": "oggi",
+      "parameterId": "date",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "it"
+  }, {
+    "parts": [ {
+      "text": "domani",
+      "parameterId": "date",
+      "auto": true
+    }, {
+      "text": " alle ",
+      "auto": true
+    }, {
+      "text": "12.30",
+      "parameterId": "time",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "it"
+  }, {
+    "parts": [ {
+      "text": "prenota",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "it"
+  }, {
+    "parts": [ {
+      "text": "riserva",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "it"
+  }, {
+    "parts": [ {
+      "text": "riserva ",
+      "auto": true
+    }, {
+      "text": "fiat panda",
+      "parameterId": "autoparam",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "it"
+  }, {
+    "parts": [ {
+      "text": "prenota ",
+      "auto": true
+    }, {
+      "text": "opel corsa",
+      "parameterId": "autoparam",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "it"
+  }, {
+    "parts": [ {
       "text": "riserva ",
       "auto": true
     }, {
@@ -30,7 +1330,7 @@
       "auto": true
     }, {
       "text": "opel",
-      "parameterId": "CarType",
+      "parameterId": "autoparam",
       "auto": true
     }, {
       "text": " il ",
@@ -51,27 +1351,18 @@
     "languageCode": "it"
   }, {
     "parts": [ {
-      "text": "riserva ",
-      "auto": true
-    }, {
-      "text": "una"
-    }, {
-      "text": " ",
-      "auto": true
+      "text": "riserva una "
     }, {
       "text": "fiat panda",
-      "parameterId": "CarType",
+      "parameterId": "autoparam",
       "auto": true
     }, {
-      "text": " ",
-      "auto": true
+      "text": " "
     }, {
       "text": "11 novembre 2024",
-      "parameterId": "date",
-      "auto": true
+      "parameterId": "date"
     }, {
-      "text": " alle ",
-      "auto": true
+      "text": " alle "
     }, {
       "text": "09.30",
       "parameterId": "time",
@@ -84,7 +1375,7 @@
       "text": "noleggia una "
     }, {
       "text": "opel corsa",
-      "parameterId": "CarType"
+      "parameterId": "autoparam"
     }, {
       "text": " "
     }, {
@@ -108,7 +1399,7 @@
       "text": "prenotami una "
     }, {
       "text": "fiat panda",
-      "parameterId": "CarType"
+      "parameterId": "autoparam"
     }, {
       "text": " "
     }, {
@@ -153,7 +1444,7 @@
       "text": "vorrei noleggiare una "
     }, {
       "text": "berlina",
-      "parameterId": "CarType"
+      "parameterId": "autoparam"
     }, {
       "text": " il "
     }, {

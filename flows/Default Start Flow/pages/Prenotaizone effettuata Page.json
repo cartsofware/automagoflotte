@@ -11,35 +11,32 @@
           "nextActionOverride": {
           
           }
-        }
-      }
-    }, {
-      "displayName": "AutoParam",
-      "required": true,
-      "entityType": "@CarType",
-      "isList": true,
-      "fillBehavior": {
-        "initialPromptFulfillment": {
-          "messages": [ {
-            "text": {
-              "text": [ "Che tipo di  auto desideri?" ]
-            },
-            "languageCode": "it"
-          } ],
-          "nextActionOverride": {
+        },
+        "repromptEventHandlers": [ {
+          "targetPage": "Prenotaizone effettuata Page",
+          "event": "sys.no-match-default",
+          "triggerFulfillment": {
           
-          }
-        }
+          },
+          "name": "f68c4ac1-29bb-426b-9316-3810098eed90"
+        } ]
       }
     }, {
       "displayName": "TimeParam",
       "required": true,
       "entityType": "@sys.time",
-      "isList": true,
       "fillBehavior": {
         "initialPromptFulfillment": {
         
-        }
+        },
+        "repromptEventHandlers": [ {
+          "targetPage": "Prenotaizone effettuata Page",
+          "event": "sys.no-match-default",
+          "triggerFulfillment": {
+          
+          },
+          "name": "95ede336-8dd9-400b-89bf-99fcbf420947"
+        } ]
       }
     } ]
   },
@@ -51,30 +48,51 @@
     }
   },
   "transitionRoutes": [ {
-    "condition": "$session.params.autoparam = null AND $session.params.date = null",
-    "triggerFulfillment": {
-      "nextActionOverride": {
-      
-      }
-    },
-    "targetPage": "RichiediAutoDate",
-    "name": "bd9717d0-6043-4221-be07-c267f86aea68"
-  }, {
-    "condition": "$session.params.autoparam = null AND $session.params.time = null",
-    "triggerFulfillment": {
-      "nextActionOverride": {
-      
-      }
-    },
-    "targetPage": "RichiediAutoTime",
-    "name": "d43f477a-dbd1-4b1e-837b-3586aaef5faf"
-  }, {
-    "condition": "$session.params.date != null AND $session.params.time != null AND $session.params.autoparam != null",
+    "condition": "$session.params.autoparam != null AND $session.params.time = null AND $session.params.date = null",
     "triggerFulfillment": {
     
     },
+    "targetPage": "Richiedi DateTime",
+    "name": "4c58cdf2-c475-4d87-8d6b-40fb18942102"
+  }, {
+    "condition": "$session.params.autoparam = null AND $session.params.time = null AND $session.params.date != null",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "RichiediAutoTime",
+    "name": "2e5361de-669b-4cd1-858f-f3c45fc4fc7f"
+  }, {
+    "condition": "$session.params.autoparam != null AND $session.params.date = null AND $session.params.time = null",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "RichiediAutoDate",
+    "name": "ff953d33-362f-4ddc-947f-28a68e269eaf"
+  }, {
+    "condition": "$session.params.cartype != null AND $session.params.time != null",
+    "triggerFulfillment": {
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetPage": "RichiediData",
+    "name": "d43f477a-dbd1-4b1e-837b-3586aaef5faf"
+  }, {
+    "condition": "$session.params.auto = 1",
+    "triggerFulfillment": {
+      "nextActionOverride": {
+      
+      }
+    },
     "targetPage": "ConfirmationPage",
-    "name": "e84e33b5-ad43-436a-bf29-7d7eb472db1f"
+    "name": "53733467-23d5-42d8-af60-94ef5ba3c6f8"
+  }, {
+    "condition": "$session.params.cartype = null",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "RichiediAuto",
+    "name": "5bdaf6a5-46be-467f-895d-50ad8edf3321"
   }, {
     "condition": "$session.params.time = null",
     "triggerFulfillment": {
@@ -91,29 +109,12 @@
     },
     "targetPage": "RichiediData",
     "name": "87daf330-5939-4bce-ade6-e1f4be5e3d27"
-  }, {
-    "condition": "$session.params.auto = 1",
-    "triggerFulfillment": {
-      "nextActionOverride": {
-      
-      }
-    },
-    "targetPage": "ConfirmationPage",
-    "name": "53733467-23d5-42d8-af60-94ef5ba3c6f8"
-  }, {
-    "condition": "$page.params.status = \"FINAL\"",
-    "triggerFulfillment": {
-      "nextActionOverride": {
-      
-      }
-    },
-    "targetPage": "ConfirmationPage",
-    "name": "d6700835-6d59-4910-9f53-fdc994ae6747"
-  }, {
-    "condition": "$session.params.autoparam = null",
+  } ],
+  "eventHandlers": [ {
+    "event": "sys.no-match-default",
     "triggerFulfillment": {
     
     },
-    "name": "ff953d33-362f-4ddc-947f-28a68e269eaf"
+    "name": "cd796a10-fd22-4fb5-998d-878d339f9b99"
   } ]
 }

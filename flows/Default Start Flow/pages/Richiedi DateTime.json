@@ -1,0 +1,62 @@
+{
+  "name": "be3ca581-fdca-4846-915a-77c2580c6e65",
+  "displayName": "Richiedi DateTime",
+  "form": {
+    "parameters": [ {
+      "displayName": "autoparam",
+      "required": true,
+      "entityType": "@CarType",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+        
+        }
+      }
+    }, {
+      "displayName": "Date",
+      "required": true,
+      "entityType": "@sys.date",
+      "isList": true,
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+        
+        }
+      }
+    }, {
+      "displayName": "Time",
+      "required": true,
+      "entityType": "@sys.time",
+      "isList": true,
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+        
+        }
+      }
+    } ]
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Per che data e che orario?" ]
+      },
+      "languageCode": "it"
+    } ],
+    "nextActionOverride": {
+    
+    }
+  },
+  "transitionRoutes": [ {
+    "condition": "$session.params.autoparam != null AND $session.params.date != null AND $session.params.time != null",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "ConfirmationPage",
+    "name": "88689471-e9da-42a2-a844-eed845182dd9"
+  }, {
+    "condition": "$session.params.autoparam != null AND $session.params.date != null",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "RichiediTime",
+    "name": "47d5c6d0-5ed4-40d8-a677-abcbd9bd7188"
+  } ]
+}

@@ -8,9 +8,7 @@
     }, {
       "text": " "
     }, {
-      "text": "opel",
-      "parameterId": "CarType",
-      "auto": true
+      "text": "opel"
     }, {
       "text": " il "
     }, {
@@ -35,9 +33,7 @@
     }, {
       "text": " "
     }, {
-      "text": "fiat panda",
-      "parameterId": "CarType",
-      "auto": true
+      "text": "fiat panda"
     }, {
       "text": " "
     }, {
@@ -58,8 +54,7 @@
     "parts": [ {
       "text": "noleggia una "
     }, {
-      "text": "opel corsa",
-      "parameterId": "CarType"
+      "text": "opel corsa"
     }, {
       "text": " "
     }, {
@@ -83,8 +78,7 @@
     "parts": [ {
       "text": "prenotami una "
     }, {
-      "text": "fiat panda",
-      "parameterId": "CarType"
+      "text": "fiat panda"
     }, {
       "text": " "
     }, {
@@ -130,8 +124,7 @@
     "parts": [ {
       "text": "vorrei noleggiare una "
     }, {
-      "text": "berlina",
-      "parameterId": "CarType"
+      "text": "berlina"
     }, {
       "text": " il "
     }, {
