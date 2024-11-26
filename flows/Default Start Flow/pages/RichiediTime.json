@@ -23,7 +23,7 @@
   "entryFulfillment": {
     "messages": [ {
       "text": {
-        "text": [ "RichiediTime fullfill: In quale orario?" ]
+        "text": [ "Per quale orario?" ]
       },
       "languageCode": "it"
     } ],
@@ -38,13 +38,5 @@
     },
     "targetPage": "ConfirmationPage",
     "name": "42c6e613-eea3-4bf1-b6f8-365a8d35c778"
-  } ],
-  "eventHandlers": [ {
-    "targetPage": "Current Page",
-    "event": "sys.no-match-default",
-    "triggerFulfillment": {
-    
-    },
-    "name": "76eeab31-400b-41b5-950b-574886df23db"
   } ]
 }

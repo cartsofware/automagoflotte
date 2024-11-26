@@ -1,6 +1,12 @@
 {
   "trainingPhrases": [ {
     "parts": [ {
+      "text": "noleggia"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "it"
+  }, {
+    "parts": [ {
       "text": "domani",
       "parameterId": "date",
       "auto": true

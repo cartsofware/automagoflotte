@@ -59,5 +59,13 @@
     },
     "targetPage": "RichiediData",
     "name": "e08dcf1d-02ea-4966-8edb-96a9fe63a29e"
+  } ],
+  "eventHandlers": [ {
+    "targetPage": "Current Page",
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+    
+    },
+    "name": "d017cfca-2e95-481f-8d27-f469f44754ae"
   } ]
 }

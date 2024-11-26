@@ -1,0 +1,26 @@
+{
+  "name": "e1227001-ea8b-4a4e-a6de-b92ca19e4fa0",
+  "displayName": "AllParamsValids",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Inserisci un auto, una data e un orario!" ]
+      },
+      "languageCode": "it"
+    } ],
+    "nextActionOverride": {
+    
+    }
+  },
+  "transitionRoutes": [ {
+    "condition": "true = true",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Start Page",
+    "name": "ff6923a2-5c39-498e-9c61-2a44a1afef85"
+  } ]
+}

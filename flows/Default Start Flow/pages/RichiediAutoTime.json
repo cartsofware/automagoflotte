@@ -53,7 +53,7 @@
     }
   },
   "transitionRoutes": [ {
-    "condition": "$session.params.time != null AND $session.params.date != null",
+    "condition": "$session.params.time != null",
     "triggerFulfillment": {
     
     },
@@ -66,5 +66,13 @@
     },
     "targetPage": "RichiediTime",
     "name": "abe8e14a-6150-45c7-a0a8-a6d4b7973dbe"
+  } ],
+  "eventHandlers": [ {
+    "targetPage": "Current Page",
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+    
+    },
+    "name": "29c88f47-306c-417b-82ba-d7b99e98622e"
   } ]
 }

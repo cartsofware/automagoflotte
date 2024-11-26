@@ -1,6 +1,6 @@
 {
   "name": "f5072e6f-eb1b-47e7-9e93-c5f9c7b84438",
-  "displayName": "Prenotaizone effettuata Page",
+  "displayName": "Prenotazione effettuata Page",
   "form": {
     "parameters": [ {
       "displayName": "Date",
@@ -13,7 +13,7 @@
           }
         },
         "repromptEventHandlers": [ {
-          "targetPage": "Prenotaizone effettuata Page",
+          "targetPage": "Prenotazione effettuata Page",
           "event": "sys.no-match-default",
           "triggerFulfillment": {
           
@@ -30,7 +30,7 @@
         
         },
         "repromptEventHandlers": [ {
-          "targetPage": "Prenotaizone effettuata Page",
+          "targetPage": "Prenotazione effettuata Page",
           "event": "sys.no-match-default",
           "triggerFulfillment": {
           
@@ -38,15 +38,18 @@
           "name": "95ede336-8dd9-400b-89bf-99fcbf420947"
         } ]
       }
+    }, {
+      "displayName": "AutoParam",
+      "required": true,
+      "entityType": "@CarType",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+        
+        }
+      }
     } ]
   },
   "entryFulfillment": {
-    "messages": [ {
-      "text": {
-        "text": [ "Prenotazione effettuata Page" ]
-      },
-      "languageCode": "it"
-    } ],
     "webhook": "replitwebhook",
     "tag": "replit",
     "nextActionOverride": {
@@ -54,6 +57,20 @@
     }
   },
   "transitionRoutes": [ {
+    "condition": "$session.params.autoparam != null AND $session.params.date != null AND $session.params.time != null",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "ConfirmationPage",
+    "name": "4a2df6f0-6a13-46e8-a8c2-79002dfbfdc9"
+  }, {
+    "condition": "$session.params.date = null AND $session.params.time = null AND $session.params.autoparam = null",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "AllParamsValids",
+    "name": "16f71fac-03c2-4b3c-880c-c3cc299afae5"
+  }, {
     "condition": "$session.params.autoparam != null AND $session.params.time = null AND $session.params.date = null",
     "triggerFulfillment": {
     
@@ -108,13 +125,6 @@
     },
     "targetPage": "RichiediAuto",
     "name": "d43f477a-dbd1-4b1e-837b-3586aaef5faf"
-  }, {
-    "condition": "$session.params.autoparam != null AND $session.params.date != null AND $session.params.time != null",
-    "triggerFulfillment": {
-    
-    },
-    "targetPage": "ConfirmationPage",
-    "name": "4a2df6f0-6a13-46e8-a8c2-79002dfbfdc9"
   } ],
   "eventHandlers": [ {
     "event": "sys.no-match-default",
