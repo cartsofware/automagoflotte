@@ -6,6 +6,7 @@
       "displayName": "autoparam",
       "required": true,
       "entityType": "@CarType",
+      "isList": true,
       "fillBehavior": {
         "initialPromptFulfillment": {
         
@@ -45,18 +46,18 @@
     }
   },
   "transitionRoutes": [ {
-    "condition": "$session.params.autoparam != null AND $session.params.date != null AND $session.params.time != null",
-    "triggerFulfillment": {
-    
-    },
-    "targetPage": "ConfirmationPage",
-    "name": "88689471-e9da-42a2-a844-eed845182dd9"
-  }, {
     "condition": "$session.params.autoparam != null AND $session.params.date != null",
     "triggerFulfillment": {
     
     },
     "targetPage": "RichiediTime",
     "name": "47d5c6d0-5ed4-40d8-a677-abcbd9bd7188"
+  }, {
+    "condition": "$session.params.autoparam != null AND $session.params.time != null",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "RichiediData",
+    "name": "e08dcf1d-02ea-4966-8edb-96a9fe63a29e"
   } ]
 }

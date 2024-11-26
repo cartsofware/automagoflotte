@@ -6,15 +6,27 @@
       "displayName": "AutoParam",
       "required": true,
       "entityType": "@CarType",
+      "isList": true,
       "fillBehavior": {
         "initialPromptFulfillment": {
         
         }
       }
     }, {
-      "displayName": "DateParam",
+      "displayName": "Date",
       "required": true,
       "entityType": "@sys.date",
+      "isList": true,
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+        
+        }
+      }
+    }, {
+      "displayName": "Time",
+      "required": true,
+      "entityType": "@sys.time",
+      "isList": true,
       "fillBehavior": {
         "initialPromptFulfillment": {
         
@@ -34,27 +46,20 @@
     }
   },
   "transitionRoutes": [ {
-    "condition": "$session.params.autoparam != null AND $session.params.date = null",
-    "triggerFulfillment": {
-    
-    },
-    "targetPage": "RichiediData",
-    "name": "b0affddd-f389-4092-9c8a-248c219c4b45"
-  }, {
-    "condition": "$session.params.autoparam = null",
+    "condition": "$session.params.autoparam != null AND $session.params.time != null",
     "triggerFulfillment": {
       "nextActionOverride": {
       
       }
     },
-    "targetPage": "RichiediAuto",
+    "targetPage": "RichiediData",
     "name": "4392daee-3251-4792-8820-f856d1da7773"
   }, {
-    "condition": "$session.params.autoparam != null",
+    "condition": "$session.params.date != null",
     "triggerFulfillment": {
     
     },
-    "targetPage": "RichiediData",
+    "targetPage": "RichiediAuto",
     "name": "40ca1a04-ed41-4c2c-900f-a7e5e9f3cfb1"
   } ]
 }

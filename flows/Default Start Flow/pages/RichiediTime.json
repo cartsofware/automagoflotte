@@ -38,13 +38,6 @@
     },
     "targetPage": "ConfirmationPage",
     "name": "42c6e613-eea3-4bf1-b6f8-365a8d35c778"
-  }, {
-    "condition": "$session.params.autoparam != null AND $session.params.date != null AND $session.params.time != null",
-    "triggerFulfillment": {
-    
-    },
-    "targetPage": "ConfirmationPage",
-    "name": "60182a52-34dd-492f-959d-fb4d85fde446"
   } ],
   "eventHandlers": [ {
     "targetPage": "Current Page",

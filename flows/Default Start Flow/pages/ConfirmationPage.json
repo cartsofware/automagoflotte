@@ -14,5 +14,13 @@
     "nextActionOverride": {
     
     }
-  }
+  },
+  "transitionRoutes": [ {
+    "condition": "true = true",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "End Session",
+    "name": "2d16a2a6-4186-48eb-93e9-f129731569d3"
+  } ]
 }

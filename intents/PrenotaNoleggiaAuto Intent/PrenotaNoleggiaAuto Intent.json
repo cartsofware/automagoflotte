@@ -15,5 +15,5 @@
     "entityType": "@sys.time"
   } ],
   "priority": 500000,
-  "numTrainingPhrases": 71
+  "numTrainingPhrases": 73
 }

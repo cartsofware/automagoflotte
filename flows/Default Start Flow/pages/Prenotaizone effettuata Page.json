@@ -3,7 +3,7 @@
   "displayName": "Prenotaizone effettuata Page",
   "form": {
     "parameters": [ {
-      "displayName": "DateParam",
+      "displayName": "Date",
       "required": true,
       "entityType": "@sys.date",
       "fillBehavior": {
@@ -22,7 +22,7 @@
         } ]
       }
     }, {
-      "displayName": "TimeParam",
+      "displayName": "Time",
       "required": true,
       "entityType": "@sys.time",
       "fillBehavior": {
@@ -41,6 +41,12 @@
     } ]
   },
   "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Prenotazione effettuata Page" ]
+      },
+      "languageCode": "it"
+    } ],
     "webhook": "replitwebhook",
     "tag": "replit",
     "nextActionOverride": {
@@ -62,21 +68,12 @@
     "targetPage": "RichiediAutoTime",
     "name": "2e5361de-669b-4cd1-858f-f3c45fc4fc7f"
   }, {
-    "condition": "$session.params.autoparam != null AND $session.params.date = null AND $session.params.time = null",
+    "condition": "$session.params.autoparam = null AND $session.params.date = null AND $session.params.time != null",
     "triggerFulfillment": {
     
     },
     "targetPage": "RichiediAutoDate",
     "name": "ff953d33-362f-4ddc-947f-28a68e269eaf"
-  }, {
-    "condition": "$session.params.cartype != null AND $session.params.time != null",
-    "triggerFulfillment": {
-      "nextActionOverride": {
-      
-      }
-    },
-    "targetPage": "RichiediData",
-    "name": "d43f477a-dbd1-4b1e-837b-3586aaef5faf"
   }, {
     "condition": "$session.params.auto = 1",
     "triggerFulfillment": {
@@ -86,13 +83,6 @@
     },
     "targetPage": "ConfirmationPage",
     "name": "53733467-23d5-42d8-af60-94ef5ba3c6f8"
-  }, {
-    "condition": "$session.params.cartype = null",
-    "triggerFulfillment": {
-    
-    },
-    "targetPage": "RichiediAuto",
-    "name": "5bdaf6a5-46be-467f-895d-50ad8edf3321"
   }, {
     "condition": "$session.params.time = null",
     "triggerFulfillment": {
@@ -109,6 +99,22 @@
     },
     "targetPage": "RichiediData",
     "name": "87daf330-5939-4bce-ade6-e1f4be5e3d27"
+  }, {
+    "condition": "$session.params.date != null AND $session.params.time != null AND $session.params.autoparam = null",
+    "triggerFulfillment": {
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetPage": "RichiediAuto",
+    "name": "d43f477a-dbd1-4b1e-837b-3586aaef5faf"
+  }, {
+    "condition": "$session.params.autoparam != null AND $session.params.date != null AND $session.params.time != null",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "ConfirmationPage",
+    "name": "4a2df6f0-6a13-46e8-a8c2-79002dfbfdc9"
   } ],
   "eventHandlers": [ {
     "event": "sys.no-match-default",

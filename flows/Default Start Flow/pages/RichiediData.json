@@ -3,7 +3,7 @@
   "displayName": "RichiediData",
   "form": {
     "parameters": [ {
-      "displayName": "DateParam",
+      "displayName": "Date",
       "required": true,
       "entityType": "@sys.date",
       "fillBehavior": {
@@ -34,7 +34,7 @@
     }
   },
   "transitionRoutes": [ {
-    "condition": "$session.params.dateparam != null",
+    "condition": "$session.params.date != null",
     "triggerFulfillment": {
       "nextActionOverride": {
       

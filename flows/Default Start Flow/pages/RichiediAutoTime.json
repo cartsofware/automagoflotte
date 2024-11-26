@@ -20,9 +20,19 @@
         } ]
       }
     }, {
-      "displayName": "TimeParam",
+      "displayName": "Time",
       "required": true,
       "entityType": "@sys.time",
+      "isList": true,
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+        
+        }
+      }
+    }, {
+      "displayName": "Date",
+      "required": true,
+      "entityType": "@sys.date",
       "isList": true,
       "fillBehavior": {
         "initialPromptFulfillment": {
@@ -43,26 +53,18 @@
     }
   },
   "transitionRoutes": [ {
-    "condition": "$session.params.date != null AND $session.params.autoparam != null",
-    "triggerFulfillment": {
-    
-    },
-    "targetPage": "RichiediTime",
-    "name": "1c2fc2ec-0ad9-4950-9e41-463ba52662a6"
-  }, {
     "condition": "$session.params.time != null AND $session.params.date != null",
     "triggerFulfillment": {
     
     },
     "targetPage": "RichiediAuto",
-    "name": "abe8e14a-6150-45c7-a0a8-a6d4b7973dbe"
-  } ],
-  "eventHandlers": [ {
-    "targetPage": "Current Page",
-    "event": "sys.no-match-1",
+    "name": "1c2fc2ec-0ad9-4950-9e41-463ba52662a6"
+  }, {
+    "condition": "$session.params.autoparam != null AND $session.params.date != null",
     "triggerFulfillment": {
     
     },
-    "name": "9be991cf-9cf3-4d36-8850-a3d7cb61ee19"
+    "targetPage": "RichiediTime",
+    "name": "abe8e14a-6150-45c7-a0a8-a6d4b7973dbe"
   } ]
 }

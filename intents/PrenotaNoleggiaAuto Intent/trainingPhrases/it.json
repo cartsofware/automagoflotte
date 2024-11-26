@@ -1,6 +1,25 @@
 {
   "trainingPhrases": [ {
     "parts": [ {
+      "text": "domani",
+      "parameterId": "date",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "it"
+  }, {
+    "parts": [ {
+      "text": "alle ",
+      "auto": true
+    }, {
+      "text": "12.30",
+      "parameterId": "time",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "it"
+  }, {
+    "parts": [ {
       "text": "Puoi organizzare una prenotazione "
     }, {
       "text": "Fiat Panda",
