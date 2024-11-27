@@ -11,6 +11,8 @@
       },
       "languageCode": "it"
     } ],
+    "webhook": "PrenotaAutoWebhook",
+    "tag": "replit",
     "nextActionOverride": {
     
     }

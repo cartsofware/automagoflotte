@@ -50,8 +50,6 @@
     } ]
   },
   "entryFulfillment": {
-    "webhook": "replitwebhook",
-    "tag": "replit",
     "nextActionOverride": {
     
     }

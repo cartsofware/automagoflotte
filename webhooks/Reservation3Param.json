@@ -1,0 +1,12 @@
+{
+  "name": "0da940f1-ada7-42bb-9976-e0a388dad8a9",
+  "displayName": "Reservation3Param",
+  "genericWebService": {
+    "uri": "https://localhost:8080/callback",
+    "webhookType": "STANDARD",
+    "serviceAgentAuth": "NONE"
+  },
+  "timeout": {
+    "seconds": 5
+  }
+}
