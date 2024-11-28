@@ -2,7 +2,7 @@
   "name": "0f9ee4bd-ae10-419a-9f1f-32c74649b66a",
   "displayName": "PrenotaAutoWebhook",
   "genericWebService": {
-    "uri": "https://a814-93-65-142-236.ngrok-free.app/callback",
+    "uri": "https://2e98-93-65-142-236.ngrok-free.app/createreservation ",
     "webhookType": "STANDARD",
     "serviceAgentAuth": "NONE"
   },
